@@ -1,0 +1,69 @@
+/*
+ Theme Name:   Twentyseventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       C. Ding
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      20210901
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyseventeenchild
+*/
+
+/*
+buddypress
+*/
+#user-blogs .count,#blogs-order-select{display:none!important;}
+#buddypress input[type='submit']{padding:1em 2em}
+
+/*
+top-menu
+ */
+/*
+.custom-header{
+    display:none;
+}
+ */
+/*#top-menu{display:flex;justify-content: space-between;}*/
+/*.menu-toggle{display:none!important;}
+#top-menu{display:block;}
+
+.js .main-navigation ul>li{float:right;}
+.js .main-navigation ul>li:first-child{float:left;}
+img.custom-logo{width:1em;display:inline;}
+#top-menu li{border:none;}
+#top-menu .menu-item{display:none;}
+
+@media screen and (min-width: 48em) {
+    #top-menu .menu-item{display:inline-block;}
+    .custom-header{
+        display:block;
+    }
+    .custom-header .site-branding {
+        height: 0;
+        padding: 0;
+        border-width: 0;
+    }
+    .custom-header .site-branding > * {
+        display: none;
+    }
+
+    #top-menu .menu-item{
+        float:right;
+    }
+}
+*/
+
+
+/*.loginout i{display:none;}*/
+.sitetitle>a,.loginout>a{display:inline-block;}.sitetitle>a:first-child,.loginout a:first-child{padding-right:0!important;}.sitetitle>a:last-child,.loginout a:last-child{padding-left: 0!important;}
+.navigation-top, .main-navigation > div>ul{
+    border-top:none;
+}
+
+    /*
+    comment-menus
+    */
+.comment-menus{font-weight:800;}
